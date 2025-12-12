@@ -1,0 +1,50 @@
+/* Modern Gradient Theme - Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  /* Color Palette */
+  --dark-slate-grey: #335c67ff;
+  --vanilla-custard: #fff3b0ff;
+  --honey-bronze: #e09f3eff;
+  --brown-red: #9e2a2bff;
+  --night-bordeaux: #540b0eff;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  background: linear-gradient(135deg, var(--dark-slate-grey) 0%, var(--night-bordeaux) 50%, var(--brown-red) 100%);
+  background-attachment: fixed;
+  color: var(--vanilla-custard);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input {
+  font-family: inherit;
+}
